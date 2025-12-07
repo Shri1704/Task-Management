@@ -1,0 +1,3 @@
+2025-12-07 21:09:36.253474+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EMPLOYEES" not found (this database is empty); SQL statement:
+INSERT INTO employees (id, name, email, department, created_time_stamp, updated_time_stamp) VALUES ('7db8233c-7eea-4bdd-a715-69c989e953bb', 'John', 'john@example.com', 'IT', 1765121172000, 1765121172000) [42104-232]
